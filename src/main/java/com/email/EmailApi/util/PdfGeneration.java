@@ -37,7 +37,7 @@ public class PdfGeneration {
             f.setSize(8);
 
             document.add(new Paragraph("Ticket Details", f));
-            PdfPTable pdfPTable = new PdfPTable(2);
+            PdfPTable pdfPTable = new PdfPTable(4);
             pdfPTable.setWidthPercentage(100);
             pdfPTable.setSpacingAfter(10f);
             pdfPTable.setSpacingBefore(10f);
@@ -51,8 +51,11 @@ public class PdfGeneration {
             pdfPTable.addCell(pdfPCell2);
 
 
+
+
             //Add content to the document using Table objects.
             document.add(pdfPTable);
+
 
 
             //close

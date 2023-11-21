@@ -13,7 +13,7 @@ public class EmailController {
     @RequestMapping("/Email")
     public String sendMail() {
 
-        emailservice.sendSimpleMail("pronaydey777@gmail.com", "welcome", "Welcome to springBoot");
+        emailservice.sendSimpleMail("pronaydey1176@gmail.com", "welcome", "Welcome to springBoot");
 
 
         return "Email";
